@@ -1,0 +1,9 @@
+# Ignore all files...
+*
+# ...but allow directories so unignored files can be reached
+!*/
+# Allow C++ files anywhere (root and nested)
+!*.cpp
+!**/*.cpp
+# Keep .gitignore tracked
+!.gitignore
