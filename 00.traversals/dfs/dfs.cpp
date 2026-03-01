@@ -15,6 +15,7 @@ void dfs(vector<vector<int>>& adjList) {
   vector<bool> vis(adjList.size(), false);
   for(int i=0; i<adjList.size(); i++) {
     if (!vis[i]) {
+      cout << "---------------------" << endl;
       dfs_helper(adjList, vis, i);
     }
   }
